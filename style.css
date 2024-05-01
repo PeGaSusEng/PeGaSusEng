@@ -1,0 +1,160 @@
+@import url('https://fonts.cdnfonts.com/css/thegoodmonolith');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(Background.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'TheGoodMonolith', sans-serif;
+    overflow-x: hidden;
+    height: 100%;
+    
+}
+
+
+.Bagian_Utama {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+    padding-left: 20px;
+    margin-left: 100px;
+    margin-right:  60px;
+    padding-right: 20px;
+    margin-bottom: 190px;
+    align-items: center;
+    border-style: solid;
+    border: none;
+    background-color: rgb(35, 32, 32);
+    opacity: 0.78;
+    color: white;
+    border-radius: 20px;
+    box-shadow: black 30px,30px,30px;
+    cursor: pointer;
+    animation: mymove 3s infinite;
+}
+#Microsoft {
+    text-align: center;
+    padding-left: 410px;
+    padding-right: 410px;
+    font-size: 30px;
+
+
+}
+
+#Corporation {
+    text-align: center;
+    padding-left: 410px;
+    padding-right: 410px;
+    font-size: 30px;
+}
+
+.Readme {
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 20px;
+    
+
+}
+
+.Readme b{
+    color: blue;
+    
+}
+
+.Readme ul{
+    color: rgb(0, 255, 89);
+    padding-left: 410px;
+    padding-right: 410px;
+    
+}
+
+.inputan {
+    text-align: center;
+    padding-left: 410px;
+    padding-right: 410px;
+    font-size: 20px;
+}
+
+.Output {
+    text-align: center;
+
+    
+}
+
+#Output2 {
+    line-break: 20px;
+    padding-bottom: 30px;
+    padding-left: 410px;
+    padding-right: 410px;
+    font-size: 30px;
+}
+
+#input{
+    background-color: transparent;
+    color: white;
+    border-right: 20px;
+    margin-bottom: 40px;
+    font-family: 'TheGoodMonolith', sans-serif;
+    display: inline-block;
+    overflow: hidden;
+    border: none;   
+    font-size: 20px; 
+}
+
+
+#Label001 {
+    margin-left: 10px;
+    padding-bottom: 40px;
+    color: yellow;
+}
+
+
+.Box {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+    animation-name: test;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes test {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+
+
+
+  #ASCII {
+    padding-left: 1000px;
+    overflow-x: hidden;
+    opacity: 0.8;
+  }
+
+  @keyframes mymove {
+    from {background-color: rgb(42, 93, 246),  rgb(128, 194, 22);}
+    to {background-color: rgb(44, 157, 72);}
+  }
+
+  @keyframes typing{
+    to{
+        width: 0%;
+    }
+ }
+  @keyframes line {
+    50%{
+        color: transparent;
+    }
+ }
